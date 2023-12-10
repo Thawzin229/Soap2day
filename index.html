@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SOAP2DAY [ Clone ]</title>
+		<link rel="shortcut icon" href="./images/card1.jpg" type="">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Archivo:wght@800&family=Fredoka:wght@500&family=Phudu:wght@500&family=Sarabun&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		
+		<div class="container-fluid min-vh-100">
+			<!-- nav_bar-->
+			<div class="nav d-flex justify-content-between">
+				<div class="nav_icon">
+					<i class="fa-sharp fa-solid fa-clapperboard fa-3x"></i>
+				</div>
+				<ul id="ullist" class=" g-5 ">
+					<!-- <li  class="list"  id="home" title="home">HOME</li>
+						<li  class="list"  id="genre" title="GENRE">GENRE</li>
+						<li  class="list"  id="country" title="COUNTRY">COUNTRY</li>
+						<li  class="list"  id="movie" title="MOVIE">MOVIE</li>
+						<li  class="list"  id="tvshow" title="TV-SHOWS">TV-SHOWS</li>
+						<li  class="list"  id="app" title="ADROID APP">ADROID APP</li> -->
+						
+						<div class="slider"></div>
+						<div class="humbargerTabs">
+							<div class="humbargerMenu">
+								<div class="hamburger line1"></div>
+								<div class="hamburger line2"></div>
+								<div class="hamburger line3"></div>
+							</div>
+						</div>
+					</ul>
+			</div>
+
+
+
+<!-- overlay menu start -->
+<div class="overlaymenu">
+	
+	<ul>
+		<i class="fa-sharp fa-solid fa-clapperboard fa-3x"></i>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Login</li>
+  </ul>
+</div>
+<!-- overlay menu end -->
+
+
+			<!--nav_bar end -->
+
+			<!-- search  bar and login and sign  up  btn  start-->
+
+			<div class="search_bar_container">
+				<div class="search_bar_wrapper d-flex justify-content-between">
+					<div class="loginNSignupbtn d-flex">
+						<a href="login.html"><button id="loginBtn" class="mx-1 px-4 py-2"> Login </button></a>
+						<button id="singnBtn" class="mx-1 px-4 py-2">Sign Up</button>
+					</div>
+					<form class="d-flex me-3" role="search">
+						<input
+							class="me-3 px-3"
+							type="search"
+							placeholder="Search Movies"
+							aria-label="Search"
+						/>
+						<button class="" id="searchBtn">Search</button>
+					</form>
+				</div>
+			</div>
+			<!-- search  bar and login and sign  up  btn  end-->
+
+			<!-- movie container start -->
+			<section>
+				<div class="movie_container">
+					<div class="ternding_content">
+						<div class="trendingheader">
+							<h5>Trending</h5>
+						</div>
+						<div class="buttons">
+							<button class="movies">Movies</button>
+							<button class="Tv-show">Tv-show</button>
+						</div>
+					</div>
+					<div class="movie_card_container">
+						<div class="card" id="frozen">
+							<img src="./images/card1.jpg" alt="disney" />
+							<h5>Frozen</h5>
+						</div>
+						<div class="card" id="frozen 2">
+							<img src="./images/card2.jpg" alt="disney" />
+							<h5>Frozen 2</h5>
+						</div>
+						<div class="card" id="Moana">
+							<img src="./images/card3.jpg" alt="disney" />
+							<h5>Moana</h5>
+						</div>
+						<div class="card" id="Rava and the last  dragon">
+							<img src="./images/card4.jpg" alt="disney" />
+							<h5>Rava and the last dragon</h5>
+						</div>
+						<div class="card" id="Brave">
+							<img src="./images/card5.jpg" alt="disney" />
+							<h5>BRAVE</h5>
+						</div>
+						<div class="card" id="Tangled">
+							<img src="./images/card6.jpg" alt="disney" />
+							<h5>Tangled</h5>
+						</div>
+						<div class="card" id="coco">
+							<img src="./images/card7.jpg" alt="disney" />
+							<h5>COCO</h5>
+						</div>
+						<div class="card"  id="Zootopia">
+							<img src="./images/card8.jpg" alt="disney" />
+							<h5>Zootopia</h5>
+						</div>
+						<div class="card" id="Mulan">
+							<img src="./images/card9.jpg" alt="disney" />
+							<h5>Mulan</h5>
+						</div>
+						<div class="card" id="Little Mermaid">
+							<img src="./images/card10.jpg" alt="disney" />
+							<h5>The Little Mermaid</h5>
+						</div>
+						<div class="card" id="Up">
+							<img src="./images/card11.jpg" alt="disney" />
+							<h5>Up</h5>
+						</div>
+						<div class="card" id="Rio">
+							<img src="./images/card12.jpg" alt="disney" />
+							<h5>Rio</h5>
+						</div>
+						<div class="card" id="Pocahontas">
+							<img src="./images/card13.jpg" alt="disney" />
+							<h5>Pocahontas</h5>
+						</div>
+						<div class="card" id="Hercules">
+							<img src="./images/card14.jpg" alt="disney" />
+							<h5>Hercules</h5>
+						</div>
+						<div class="card" id="TheLionKing">
+							<img src="./images/card15.jpg" alt="disney" />
+							<h5>The Lion King</h5>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- movie container end -->
+
+			<!-- footer start -->
+			<footer>
+				<div class="Pageinfo">
+					<p>
+						SOAP2DAY is a Free Movies streaming site with zero ads. We let you
+						watch movies online without having to register or paying, with over
+						10000 movies and TV-Series. You can also Download full movies from
+						SOAP2DAY and watch it later if you want.
+					</p>
+					<ul>
+						<li><a href=""> Andriod App</a></li>
+						<li><a href="">Terms of service</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Sitemap</a></li>
+					</ul>
+					<small>
+						Copyright © SOAP2DAY With over +10000 Movies and Series for Free
+					</small>
+				</div>
+			</footer>
+      <!-- footer end -->
+
+
+			<!-- toast   notification start -->
+			<div class="parent"></div>
+			<!-- toast   notification end -->
+
+		</div>
+
+		<script src="./JS/script.js"></script>
+		<script src="./JS/taost.js"></script>
+		<script src="./JS/humbarger.js"></script>
+	</body>
+</html>
